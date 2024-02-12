@@ -8,7 +8,7 @@ Author: Simona Limontaite
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://html-quiz-sl-netlify.com)
+- Live Site URL: [HTML Quiz live](https://html-quiz-sl.netlify.app/)
 
 ### Built with
 
