@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend quiz app</title>
+</head>
+
+<body>
+  <div class="app">
+    <h1>"HTML" Quizzz</h1>
+    <div class="quiz-container">
+      <div class="left-side">
+        <div>
+          <div class="questions-left"></div>
+          <div class="finish-text">
+            <p>Quiz completed</p>
+            <strong>You scored...</strong>
+          </div>
+          <h2 id="question">Question goes here</h2>
+        </div>
+        <div class="progress-bar">
+          <div class="indicator-wrapper">
+            <span class="indicator"></span>
+          </div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div id="answers">
+          <button class="btn">
+            <span class="answer-letter">A</span>
+            <span class="answer-text">answer 1</span>
+          </button>
+          <button class="btn">
+            <span class="answer-letter">A</span>
+            <span class="answer-text">answer 1</span>
+          </button>
+          <button class="btn">
+            <span class="answer-letter">A</span>
+            <span class="answer-text">answer 1</span>
+          </button>
+          <button class="btn">
+            <span class="answer-letter">A</span>
+            <span class="answer-text">answer 1</span>
+          </button>
+        </div>
+        <div class="result-container">
+          <span class="result-number"></span>
+          <span class="result-text"></span>
+        </div>
+        <button id="next-btn">Next</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
