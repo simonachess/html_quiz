@@ -192,3 +192,60 @@ h1 {
     background: #EE5454 !important;
     color: #ffffff !important;
 }
+
+@media screen and (max-width: 1240px) {
+    .app {
+        margin-top: 40px;
+    }
+
+    .quiz-container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+    }
+
+    .quiz-container .left-side {
+        margin-right: 0;
+        margin-bottom: 32px;
+        height: auto;
+    }
+
+    #question {
+        margin-bottom: 24px;
+        font-size: 24px;
+    }
+
+    #answers .btn {
+        border-radius: 8px;
+        padding: 12px;
+    }
+
+    #answers .btn .answer-letter {
+        font-size: 20px;
+    }
+
+    #answers .btn .answer-text {
+        font-size: 18px;
+    }
+
+    .quiz-container .right-side,
+    .quiz-container .left-side {
+        width: 100%;
+    }
+
+    .result-number {
+        font-size: 88px;
+    }
+
+    .finish-text {
+        font-size: 32px;
+    }
+
+    #next-btn {
+        padding: 20px;
+        border-radius: 8px;
+    }
+}
